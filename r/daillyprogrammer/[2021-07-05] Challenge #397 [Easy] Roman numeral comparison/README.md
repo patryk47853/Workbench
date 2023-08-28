@@ -19,7 +19,3 @@ numcompare("V", "IIII") => false
 numcompare("MDCLXV", "MDCLXVI") => true
 numcompare("MM", "MDCCCCLXXXXVIIII") => false
 You only need to correctly handle the case where there are at most 1 each of D, L, and V, and at most 4 each of C, X, and I. You don't need to validate the input, but you can if you want. Any behavior for invalid inputs like numcompare("V", "IIIIIIIIII") is fine - true, false, or error.
-
-#### Bonus:
-
-Try to complete the challenge without actually determining the numerical values of the inputs.
